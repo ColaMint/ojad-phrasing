@@ -60,12 +60,13 @@ def analyze(estimation, text):
         print pitch
         print text.encode('utf-8')
 
-        phrasing_subscript = phrasing_row.cssselect('.phrasing_phrase_wrapper > .phrasing_subscript')[0]
-        phrasing_subscript_spans = phrasing_subscript.cssselect('span')
+        phrasing_subscripts = phrasing_row.cssselect('.phrasing_phrase_wrapper > .phrasing_subscript')
         text = ''
-        for span in phrasing_subscript_spans:
-            if span.text:
-                text += span.text
+        for phrasing_subscript in phrasing_subscripts:
+            phrasing_subscript_spans = phrasing_subscript.cssselect('span')
+            for span in phrasing_subscript_spans:
+                if span.text:
+                    text += span.text
         print text.encode('utf-8')
 
 def main():
