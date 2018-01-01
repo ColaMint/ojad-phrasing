@@ -52,7 +52,7 @@ def analyze(estimation, text):
             text += char[0].text
 
             if 'accent_plain' in span.classes:
-                pitch += '\033[0;31m──\033[0m'
+                pitch += '\033[0;31mー\033[0m'
             elif 'accent_top' in span.classes:
                 pitch += '\033[0;31m─┐\033[0m'
             else:
