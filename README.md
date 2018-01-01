@@ -29,14 +29,14 @@ optional arguments:
 
 ```sh
 echo "美味しい" | ojad-phrasing
-  ーーー
+　ーーー
 おいしい
 美味しい
 ```
 
 ```sh
 ojad-phrasing "美味しい"
-  ーーー
+　ーーー
 おいしい
 美味しい
 ```
