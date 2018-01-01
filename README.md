@@ -28,15 +28,15 @@ optional arguments:
 # Example
 
 ```sh
-echo "美味しい" | ojad-phrasing
-　ーーー
-おいしい
-美味しい
+echo "日本語を勉強します。" | ojad-phrasing
+　－－－－　－－－－＋
+にほんごをべんきうします。
+日本語を勉強します。
 ```
 
 ```sh
-ojad-phrasing "美味しい"
-　ーーー
-おいしい
-美味しい
+ojad-phrasing "日本語を勉強します。"
+　－－－－　－－－－＋
+にほんごをべんきうします。
+日本語を勉強します。
 ```
