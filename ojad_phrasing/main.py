@@ -56,7 +56,7 @@ def analyze(estimation, text):
             elif 'accent_top' in span.classes:
                 pitch += '\033[0;31m─┐\033[0m'
             else:
-                pitch += '  '
+                pitch += '　'
         print pitch
         print text.encode('utf-8')
 
