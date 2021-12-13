@@ -23,7 +23,7 @@ setup(
 	'chardet==3.0.4',
 	'cssselect==1.0.3',
 	'idna==2.6',
-	'lxml==4.6.3',
+	'lxml==4.6.5',
 	'requests==2.18.4',
 	'urllib3==1.26.5',
     ],
