@@ -19,7 +19,7 @@ setup(
         ],
     },
     install_requires=[
-	'certifi==2017.11.5',
+	'certifi==2022.12.7',
 	'chardet==3.0.4',
 	'cssselect==1.0.3',
 	'idna==2.6',
